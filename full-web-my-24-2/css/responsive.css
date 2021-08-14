@@ -1,0 +1,53 @@
+@media (max-width:1109){
+    .header-designe {
+        width: 833px;
+ 
+    }
+    .header-manu {
+        width: 603px;
+    }
+    .header-manu ul {
+        padding-right: 39px;
+    }
+    .header-logo {
+        width: 223px;
+
+    }
+    .banner-section {
+        padding: 112px 0;
+    }
+}
+@media (max-width:950px){
+    .jim-content {
+        width: 918px;
+    }
+    .about-content {
+        width: 22.3%;
+        margin-bottom: -22px;
+
+    }
+    .jim-content img {
+        width: 103px;
+        margin-right: 16px;
+    }
+    .jim-content p {
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .footer-content {
+        width: 500;
+        padding-left: 20px;
+    }
+    .header-manu ul {
+        text-align: left;
+    }
+    .header-manu ul li a {
+  
+        padding: 0 5px;
+
+    }
+    .banner-section {
+
+        padding: 149px 0;
+    }
+}

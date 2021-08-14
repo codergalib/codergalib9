@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+          /*    Main-CSS     */
+body h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family:  Arial, sans-serif;
+}
+.fix-width{
+    width: 1280px;
+    margin: auto;
+  
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+
+                /*  Header-Section-CSS    */
+
+
+.header-section{
+    background: #ecf0f1;
+}
+.header-logo {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header-logo img {
+    max-width: 61%;
+}
+
+.header-manu{
+    width: 70%;
+}
+.header-manu ul {
+    text-align: right;
+    list-style: none;
+    line-height: 81px;
+}
+.header-manu ul li{
+    display: inline-block;
+}
+.header-manu ul li a {
+    display: block;
+    color: #111;
+    font-size: 22px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: .3s;
+}
+.header-manu ul li a:hover{
+    color: red;
+    letter-spacing: 1px;
+}
+
+
+              /*   Banner-Section-CSS   */
+
+.banner-section {
+    background: linear-gradient(#ff000078,#ffff008a), url(./logo-img/20200312_105902.jpg) no-repeat top center;
+        background-size: auto, auto;
+    background-size: cover;
+    padding: 170px 0;
+    background-attachment: fixed;
+}
+.banner-content {
+    width: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.banner-content h2 {
+    font-size: 38px;
+    color: #111;
+    padding: 20px 0;
+}
+.banner-content p {
+    font-size: 18px;
+    color: #111;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+
+              /*    About-Section-CSS     */
+
+.about-section {
+    padding: 40px 0;
+}
+.about-text {
+    text-align: center;
+}
+.about-text h2 {
+    text-align: center;
+    font-size: 43px;
+    color: red;
+    background: black;
+    display: inline-block;
+    width: 300px;
+    height: 67px;
+    line-height: 67px;
+    border-radius: 8px 8px 50px 50px;
+}
+.about-text p {
+    font-size: 18px;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+
+               /*     Content-Section-CSS       */
+
+.content-section{}
+
+.conteiner {
+    width: 31%;
+    margin: 0 1%;
+    border: 2px solid aqua;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.conteiner span {
+    font-size: 27px;
+    color: #111;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #00ff7c;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid black;
+}
+.conteiner h2 {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #000;
+}
+.conteiner p {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 47px;
+    margin-top: 13px;
+}
+
+
+            /*   Oriyentetion-Section-CSS       */
+
+.oriyentetion-section{padding: 50px 0;
+background: rgb(230, 230, 230);margin-top: 40px;}
+.my-section{
+    padding: 50px;
+    box-sizing: border-box;
+}
+.my-section p {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 41px;
+}
+.my-section p {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 41px;
+}
+
+
+
+                /*   Footer     */
+
+                .footer{
+                    background: #111;
+                }
+                .footer-left {
+                    width: 50%;
+                }
+                .footer-left span {
+                    color: red;
+                    font-size: 27px;
+                    line-height: 87px;
+                    font-weight: 900;
+                }
+                .footer-right {
+                    width: 50%;
+                }
+                .footer-right ul {
+                    list-style: none;
+                    text-align: right;
+                    margin-top: 12px;
+                }
+                .footer-right ul li {
+                    display: inline-block;
+                }
+                .footer-right ul li a {
+                    font-size: 35px;
+                    color: red;
+                    width: 60px;
+                    height: 60px;
+                    display: block;
+                    background: green;
+                    text-align: center;
+                    line-height: 60px;
+                    border-radius: 50%;
+                    border: 2px solid red;
+                }
+.footer-right ul li a i{}

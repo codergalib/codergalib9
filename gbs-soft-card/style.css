@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: magenta;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.main-div {
+	background: red;
+	width: 500px;
+	height: 300px;
+	margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+	
+}
+.img {
+	width: 240px;
+}
+h2 {
+	font-size: 30px;
+	position: relative;
+	left: 50px;
+	line-height: 50px;
+	color: white;
+}
+h3 {
+	font-size: 19px;
+	position: relative;
+	left: 28px;
+	top: -4px;
+}
+.img-2 {
+	width: 149px;
+	position: relative;
+	top: -243px;
+	left: 50px;
+	background: #ffffffed;
+	box-shadow: 0 0 29px 24px white;
+	border-radius: 0px;
+}
+ul {
+	list-style: none;
+	position: relative;
+	top: -193px;
+    left: 265px;
+    position: relative;
+}
+ul::after {
+	content: "";
+	width: 41%;
+	height: 14px;
+	background: black;
+	position: absolute;
+	top: -18px;
+	left: 0;
+}
+li {
+	width: 10px;
+	height: 70px;
+	background: black;
+	display: inline-block;
+	transform-origin: top;
+    animation: animate 1.8s linear infinite;
+    border-bottom: 40px solid green;
+    position: relative;
+    border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+
+}
+li::after {
+	content: "";
+	position: absolute;
+	bottom: -53px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: blue;
+	box-shadow: 0 0 13px 7px navy;
+	border-radius: 50%;
+
+}
+@keyframes animate{
+    0%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(50px);
+    }
+}
+li:nth-child(1){
+    animation-delay: .4s;
+}
+li:nth-child(2){
+    animation-delay: .5s;
+}
+li:nth-child(3){
+    animation-delay: .6s;
+}
+li:nth-child(4){
+    animation-delay: .7s;
+}
+li:nth-child(5){
+    animation-delay: .8s;
+}
+li:nth-child(6){
+    animation-delay: .9s;
+}
+li:nth-child(7){
+    animation-delay: 1s;
+}
+li:nth-child(8){
+    animation-delay: 1.1s;
+}
+li:nth-child(9){
+    animation-delay: 1.2s;
+}
+li:nth-child(10){
+    animation-delay: 1.3s;
+}
+li:nth-child(11){
+    animation-delay: 1.4s;
+}
+li:nth-child(12){
+    animation-delay: 1.5s;
+}
+li:nth-child(13){
+    animation-delay: 1.6s;
+}
+li:nth-child(14){
+    animation-delay: 1.7s;
+}
+li:nth-child(15){
+    animation-delay: 1.8s;
+}
+.img-3 {
+	position: relative;
+	top: -193px;
+	left: 279px;
+	width: 165px;
+}
